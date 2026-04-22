@@ -1,0 +1,81 @@
+/run/initialize
+/tracking/verbose 0
+
+/control/getEnv a
+/control/getEnv b
+
+/random/setSeeds {a} {b}
+
+/process/list
+/run/printProgress 10000
+
+/gps/particle neutron
+/gps/ene/type Arb
+/gps/hist/type arb
+
+/gps/hist/point 0.2611 1.0000
+/gps/hist/point 0.9682 0.8963
+/gps/hist/point 1.0637 0.6793
+/gps/hist/point 1.1210 0.6177
+/gps/hist/point 1.1975 0.5950
+/gps/hist/point 1.2739 0.6210
+/gps/hist/point 1.3885 0.6631
+/gps/hist/point 1.5032 0.6210
+/gps/hist/point 1.5223 0.5918
+/gps/hist/point 1.6178 0.5043
+/gps/hist/point 1.6943 0.5562
+/gps/hist/point 1.8280 0.6112
+/gps/hist/point 2.0573 0.6177
+/gps/hist/point 2.2866 0.6048
+/gps/hist/point 2.4968 0.5886
+/gps/hist/point 2.6115 0.6080
+/gps/hist/point 2.6879 0.6663
+/gps/hist/point 2.8217 0.7052
+/gps/hist/point 2.9363 0.7894
+/gps/hist/point 3.0318 0.8510
+/gps/hist/point 3.1274 0.9093
+/gps/hist/point 3.3376 0.7732
+/gps/hist/point 3.5096 0.7181
+/gps/hist/point 3.8917 0.6760
+/gps/hist/point 4.2166 0.6793
+/gps/hist/point 4.5414 0.7570
+/gps/hist/point 4.8471 0.7473
+/gps/hist/point 5.1720 0.7181
+/gps/hist/point 5.4586 0.5983
+/gps/hist/point 5.7261 0.4816
+/gps/hist/point 6.0318 0.3650
+/gps/hist/point 6.2994 0.3391
+/gps/hist/point 6.5669 0.4719
+/gps/hist/point 6.8344 0.4071
+/gps/hist/point 7.1019 0.3747
+/gps/hist/point 7.3503 0.4136
+/gps/hist/point 7.5987 0.4590
+/gps/hist/point 7.8662 0.4460
+/gps/hist/point 8.0955 0.4006
+/gps/hist/point 8.3439 0.3067
+/gps/hist/point 8.5924 0.2322
+/gps/hist/point 8.8025 0.1658
+/gps/hist/point 9.0701 0.1172
+/gps/hist/point 9.3185 0.1317
+/gps/hist/point 9.5478 0.1641
+/gps/hist/point 9.7580 0.1803
+/gps/hist/point 9.9873 0.1641
+/gps/hist/point 10.1975 0.1220
+/gps/hist/point 10.4268 0.0670
+/gps/hist/point 10.6752 0.0313
+/gps/hist/point 10.9045 0.0119
+
+
+/gps/hist/inter Spline
+
+
+/gps/pos/centre 0 0 10.6 cm
+/gps/ang/type iso
+#/gps/direction 0 1 0
+
+
+/analysis/setFileName PuBE_frontpoly_onetenthSecond_Sn.root
+#/analysis/setFileName EJ426_frontpoly_acrylic_backpoly_2eV_15_24_15_trimmed10mm
+/run/beamOn 100000
+#/run/beamOn 472823
+###/run/beamOn 141593

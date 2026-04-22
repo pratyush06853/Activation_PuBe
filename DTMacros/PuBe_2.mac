@@ -1,0 +1,63 @@
+/run/initialize
+/tracking/verbose 0
+
+/random/setSeeds 3250 8967
+
+/process/list
+/run/printProgress 10000
+
+/gps/particle neutron
+/gps/ene/type Arb
+/gps/hist/type arb
+
+#/gps/hist/point 0.0156 0.0036
+#/gps/hist/point 0.5156 0.036
+/gps/hist/point 0.8156 0.5156
+/gps/hist/point 0.9497 0.6496
+/gps/hist/point 1.0391 0.6183
+/gps/hist/point 1.1061 0.5357
+/gps/hist/point 1.2402 0.5156
+/gps/hist/point 1.6648 0.4933
+/gps/hist/point 1.8659 0.5112
+/gps/hist/point 2.0000 0.5692
+/gps/hist/point 2.2905 0.6362
+/gps/hist/point 2.5810 0.6875
+/gps/hist/point 2.7598 0.8214
+/gps/hist/point 3.0056 0.9308
+/gps/hist/point 3.2067 1.0000
+/gps/hist/point 3.5866 0.9509
+/gps/hist/point 3.8101 0.8705
+/gps/hist/point 4.0112 0.8415
+/gps/hist/point 4.2793 0.8661
+/gps/hist/point 4.5698 0.9018
+/gps/hist/point 4.8603 0.8795
+/gps/hist/point 5.1732 0.7790
+/gps/hist/point 5.4860 0.6518
+/gps/hist/point 5.7989 0.5603
+/gps/hist/point 6.0670 0.5067
+/gps/hist/point 6.4022 0.4777
+/gps/hist/point 6.7598 0.4687
+/gps/hist/point 7.4525 0.4777
+/gps/hist/point 7.9218 0.4241
+/gps/hist/point 8.5028 0.3237
+/gps/hist/point 9.0168 0.2187
+/gps/hist/point 9.4413 0.1674
+/gps/hist/point 9.9553 0.1228
+/gps/hist/point 10.5810 0.0781
+/gps/hist/point 10.9385 0.0402
+/gps/hist/point 11.4972 0.0179
+/gps/hist/point 12.1006 0.0022
+
+
+/gps/hist/inter Spline
+
+
+/gps/pos/centre 0 0 10.6 cm
+/gps/ang/type iso
+
+
+/analysis/setFileName PuBE_frontpoly_onetenthSecond_2_5m
+#/analysis/setFileName EJ426_frontpoly_acrylic_backpoly_2eV_15_24_15_trimmed10mm
+#/run/beamOn 100000
+/run/beamOn 472823
+#/run/beamOn 141593

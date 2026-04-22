@@ -1,0 +1,15 @@
+/run/initialize
+/tracking/verbose 0
+
+/random/setSeeds 1233 4388
+
+/process/list
+
+/gps/particle ion
+/gps/ionLvl 50 117 0 1
+
+/gps/position 0 0 10.6 cm
+/gps/direction 0 1 0
+
+/analysis/setFileName test_Sn117m.root
+/run/beamOn 10000

@@ -1,0 +1,127 @@
+/run/initialize
+/tracking/verbose 0
+
+/random/setSeeds 3250 8967
+
+/process/list
+/run/printProgress 10000
+
+/gps/particle neutron
+/gps/ene/type Arb
+/gps/hist/type arb
+
+/gps/hist/point 0.05 1.019e+19
+/gps/hist/point 0.15 1.78e+19
+/gps/hist/point 0.25 2.192e+19
+/gps/hist/point 0.35 2.467e+19
+/gps/hist/point 0.45 2.656e+19
+/gps/hist/point 0.55 2.785e+19
+/gps/hist/point 0.65 2.87e+19
+/gps/hist/point 0.75 2.92e+19
+/gps/hist/point 0.85 2.942e+19
+/gps/hist/point 0.95 2.943e+19
+/gps/hist/point 1.05 2.924e+19
+/gps/hist/point 1.15 2.892e+19
+/gps/hist/point 1.25 2.847e+19
+/gps/hist/point 1.35 2.792e+19
+/gps/hist/point 1.45 2.729e+19
+/gps/hist/point 1.55 2.661e+19
+/gps/hist/point 1.65 2.587e+19
+/gps/hist/point 1.75 2.509e+19
+/gps/hist/point 1.85 2.429e+19
+/gps/hist/point 1.95 2.347e+19
+/gps/hist/point 2.05 2.264e+19
+/gps/hist/point 2.15 2.18e+19
+/gps/hist/point 2.25 2.096e+19
+/gps/hist/point 2.35 2.013e+19
+/gps/hist/point 2.45 1.931e+19
+/gps/hist/point 2.55 1.85e+19
+/gps/hist/point 2.65 1.77e+19
+/gps/hist/point 2.75 1.692e+19
+/gps/hist/point 2.85 1.615e+19
+/gps/hist/point 2.95 1.541e+19
+/gps/hist/point 3.05 1.469e+19
+/gps/hist/point 3.15 1.399e+19
+/gps/hist/point 3.25 1.332e+19
+/gps/hist/point 3.35 1.266e+19
+/gps/hist/point 3.45 1.203e+19
+/gps/hist/point 3.55 1.143e+19
+/gps/hist/point 3.65 1.084e+19
+/gps/hist/point 3.75 1.029e+19
+/gps/hist/point 3.85 9.749e+18
+/gps/hist/point 3.95 9.235e+18
+/gps/hist/point 4.05 8.743e+18
+/gps/hist/point 4.15 8.273e+18
+/gps/hist/point 4.25 7.825e+18
+/gps/hist/point 4.35 7.397e+18
+/gps/hist/point 4.45 6.989e+18
+/gps/hist/point 4.55 6.6e+18
+/gps/hist/point 4.65 6.231e+18
+/gps/hist/point 4.75 5.879e+18
+/gps/hist/point 4.85 5.545e+18
+/gps/hist/point 4.95 5.228e+18
+/gps/hist/point 5.05 4.927e+18
+/gps/hist/point 5.15 4.642e+18
+/gps/hist/point 5.25 4.372e+18
+/gps/hist/point 5.35 4.116e+18
+/gps/hist/point 5.45 3.873e+18
+/gps/hist/point 5.55 3.644e+18
+/gps/hist/point 5.65 3.427e+18
+/gps/hist/point 5.75 3.222e+18
+/gps/hist/point 5.85 3.028e+18
+/gps/hist/point 5.95 2.845e+18
+/gps/hist/point 6.05 2.672e+18
+/gps/hist/point 6.15 2.509e+18
+/gps/hist/point 6.25 2.356e+18
+/gps/hist/point 6.35 2.211e+18
+/gps/hist/point 6.45 2.074e+18
+/gps/hist/point 6.55 1.946e+18
+/gps/hist/point 6.65 1.825e+18
+/gps/hist/point 6.75 1.711e+18
+/gps/hist/point 6.85 1.603e+18
+/gps/hist/point 6.95 1.502e+18
+/gps/hist/point 7.05 1.408e+18
+/gps/hist/point 7.15 1.318e+18
+/gps/hist/point 7.25 1.235e+18
+/gps/hist/point 7.35 1.156e+18
+/gps/hist/point 7.45 1.082e+18
+/gps/hist/point 7.55 1.012e+18
+/gps/hist/point 7.65 9.473e+17
+/gps/hist/point 7.75 8.861e+17
+/gps/hist/point 7.85 8.288e+17
+/gps/hist/point 7.95 7.749e+17
+/gps/hist/point 8.05 7.245e+17
+/gps/hist/point 8.15 6.772e+17
+/gps/hist/point 8.25 6.329e+17
+/gps/hist/point 8.35 5.914e+17
+/gps/hist/point 8.45 5.524e+17
+/gps/hist/point 8.55 5.16e+17
+/gps/hist/point 8.65 4.819e+17
+/gps/hist/point 8.75 4.5e+17
+/gps/hist/point 8.85 4.201e+17
+/gps/hist/point 8.95 3.921e+17
+/gps/hist/point 9.05 3.66e+17
+/gps/hist/point 9.15 3.415e+17
+/gps/hist/point 9.25 3.186e+17
+/gps/hist/point 9.35 2.972e+17
+/gps/hist/point 9.45 2.772e+17
+/gps/hist/point 9.55 2.586e+17
+/gps/hist/point 9.65 2.411e+17
+/gps/hist/point 9.75 2.247e+17
+/gps/hist/point 9.85 2.095e+17
+/gps/hist/point 9.95 1.953e+17
+
+
+/gps/hist/inter Spline
+
+
+/gps/pos/centre 0 0 16.4 cm
+/gps/ang/type iso
+
+
+
+/analysis/setFileName Cf252_frontpoly_acrylic_backpoly_reducedwater_PhenolResin_table_concrete_soil_Floor_15_24_15_onehour_correctone
+#/analysis/setFileName EJ426_frontpoly_acrylic_backpoly_2eV_15_24_15_trimmed10mm
+#/run/beamOn 100000
+#/run/beamOn 1130400
+/run/beamOn 141593
